@@ -44,6 +44,9 @@ This repository contains my personal notes, detections, and scripts related to *
    ```bash
    git clone https://github.com/AryanSylia/Blue-team-notes.git
 
+`
+`
+
    📄 License
 This project is licensed under the MIT License — you are free to use, modify, and share with proper credit.
 

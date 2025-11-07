@@ -43,3 +43,10 @@ Objective: To understand how devices are identified within a network — what id
 ### Windows
 ```PowerShell
 ipconfig /all
+
+
+### Linux
+ip link show
+# أو
+ifconfig -a
+

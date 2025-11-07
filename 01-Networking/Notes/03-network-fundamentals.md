@@ -129,3 +129,9 @@ Enterprise environments (core–distribution–access network design).
 ---
 
 **Tags:** `networking` `topologies` `switch` `router` `tryhackme` `lan`
+
+
+Star:      Bus:         Ring:
+   *         *-*         *-*-*
+  /|\         |             |
+ * * *       * *           * *

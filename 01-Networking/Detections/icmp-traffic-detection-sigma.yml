@@ -1,0 +1,20 @@
+title: ICMP Traffic Detection
+id: 1f23bdea-2233-44f9-b88e-icmp-detect
+description: Detects ICMP echo request or reply traffic in network logs.
+status: experimental
+author: AryanSylia
+date: 2025/11/06
+logsource:
+  product: network
+  service: firewall
+detection:
+  selection:
+    protocol: ICMP
+  condition: selection
+fields:
+  - src_ip
+  - dest_ip
+  - protocol
+falsepositives:
+  - Normal ping operations
+level: informational

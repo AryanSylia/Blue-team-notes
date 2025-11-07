@@ -50,3 +50,7 @@ ip link show
 # أو
 ifconfig -a
 
+### macOs
+networksetup -listallhardwareports
+# أو
+ifconfig

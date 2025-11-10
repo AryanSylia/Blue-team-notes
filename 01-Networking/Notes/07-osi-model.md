@@ -152,4 +152,76 @@ representing binary data (`1`s and `0`s) that higher layers will later interpret
 
 ---
 
+---
+
+## 🔗 Layer 2 — Data Link Layer 
+
+### ⚙️ Overview
+
+The **Data Link Layer** is the **second layer** in the OSI Model.  
+It focuses on how data is **physically addressed** and **transferred** between devices that are directly connected in the same local network.
+
+It takes the raw bits from the **Physical Layer** and organizes them into **frames** — a structure that includes addressing and error-checking information — making communication more reliable and structured.
+
+---
+
+### 🧠 Main Responsibilities
+
+1. **Physical Addressing:**  
+   Each device in a local network has a **MAC address** (Media Access Control).  
+   This address is **burned into the Network Interface Card (NIC)** by the manufacturer and is unique to that device.  
+   - Example: `A4:C3:F0:85:AC:2D`  
+   - It tells the network exactly *which device* should receive the data.
+
+2. **Framing:**  
+   The Data Link Layer packages data from the **Network Layer** (which contains IP addresses) into **frames** that include:
+   - Source MAC address  
+   - Destination MAC address  
+   - Data payload  
+   - Error detection bits (CRC)
+
+3. **Error Detection:**  
+   It checks whether the frames were transmitted correctly using techniques like **CRC (Cyclic Redundancy Check)**.
+
+4. **Media Access Control:**  
+   This layer also determines *who can use the network medium at a given time* — avoiding data collisions (important in shared networks).
+
+---
+
+### 🧩 Key Concepts
+
+| Term | Description |
+|------|--------------|
+| **MAC Address** | A unique hardware address used to identify a device on the local network. |
+| **NIC (Network Interface Card)** | The hardware component inside every device that connects it to a network and holds its MAC address. |
+| **Frame** | The “data packet” format used at the Data Link Layer — includes addressing and error-checking info. |
+| **Switch** | A Layer 2 device that uses MAC addresses to forward data to the correct destination within the LAN. |
+
+---
+
+### 💡 Example
+
+When your computer sends a message to another device on the same Wi-Fi or LAN:
+1. The **Network Layer** decides the destination IP.  
+2. The **Data Link Layer** adds the **MAC address** of that device.  
+3. The **Physical Layer** then sends the signal through the cable or wireless channel.
+
+If the data is going outside the local network, it’s sent first to the router’s MAC address (gateway).
+
+---
+
+### 🧾 Summary
+
+| Key Aspect | Description |
+|-------------|-------------|
+| **Layer Number** | 2 |
+| **Name** | Data Link Layer |
+| **Main Role** | Physical addressing, framing, and error detection |
+| **Unit of Data** | Frame |
+| **Key Address** | MAC Address |
+| **Hardware Example** | Network Interface Card (NIC), Switch |
+
+---
+
+
 

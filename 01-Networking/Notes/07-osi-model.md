@@ -223,5 +223,91 @@ If the data is going outside the local network, it’s sent first to the router�
 
 ---
 
+---
+
+## 🌐 Layer 3 — Network Layer 
+
+### ⚙️ Overview
+
+The **Network Layer** is the **third layer** of the OSI Model.  
+This is where **routing** and **path selection** happen — the process that decides how packets travel from one network to another.
+
+While the **Data Link Layer** only handles communication inside the same local network (LAN),  
+the **Network Layer** connects **different networks** together using logical addressing (IP addresses).
+
+---
+
+### 🧭 Main Responsibilities
+
+1. **Routing (تحديد المسار):**  
+   The Network Layer determines the **best path** for data to reach its destination.  
+   It uses routing protocols such as:
+   - **OSPF (Open Shortest Path First)** — finds the shortest and most efficient path.
+   - **RIP (Routing Information Protocol)** — chooses routes based on hop count (number of devices between source and destination).
+
+2. **Forwarding (التوجيه):**  
+   Once the route is known, this layer forwards packets through routers and switches that operate at Layer 3.
+
+3. **Logical Addressing (العناوين المنطقية):**  
+   Every device is assigned an **IP address** like `192.168.1.100`,  
+   which identifies the device’s location within a network or subnet.
+
+---
+
+### ⚙️ How It Works
+
+When your computer (Computer A) sends data to another computer (Computer B) in a **different network**:
+
+1. The **Transport Layer** adds the data segment.  
+2. The **Network Layer** adds the **source and destination IP addresses**.  
+3. Routers analyze these IP addresses and decide the most optimal route.  
+4. The data travels through one or more routers until it reaches its destination.
+
+---
+
+### 🔍 Route Decision Factors
+
+Routing protocols decide the path based on:
+
+- **Shortest path:** Fewer intermediate devices (hops).  
+- **Most reliable path:** Fewer packet losses in the past.  
+- **Fastest path:** Fiber optics (faster) vs copper cables (slower).
+
+---
+
+### 🧩 Key Components
+
+| Component | Description |
+|------------|-------------|
+| **Router** | The main Layer 3 device — directs data based on IP addresses. |
+| **Layer 3 Switch** | An advanced switch that can also perform routing functions. |
+| **IP Address** | Logical address used to identify devices across different networks. |
+| **Packet** | The data unit used at this layer. |
+
+---
+
+### 💡 Example
+
+Imagine **Computer A** (192.168.1.10) wants to send data to **Computer B** (192.168.2.10).  
+Since they belong to different networks, the data must pass through a **Router**,  
+which examines its routing table and sends the packet through the **best available path**.
+
+---
+
+### 🧾 Summary
+
+| Key Aspect | Description |
+|-------------|-------------|
+| **Layer Number** | 3 |
+| **Name** | Network Layer |
+| **Main Role** | Routing and inter-network communication |
+| **Unit of Data** | Packet |
+| **Address Type** | IP Address |
+| **Devices** | Routers, Layer 3 Switches |
+| **Protocols** | OSPF, RIP |
+
+---
+
+
 
 

@@ -1,4 +1,4 @@
-# 05 — DHCP (Dynamic Host Configuration Protocol) 📡  
+# 06 — DHCP (Dynamic Host Configuration Protocol) 📡  
 **Date:** 2025-11-10  
 **Source:** TryHackMe — *DHCP Task*  
 *(Personal learning note — no protected answers included)*  

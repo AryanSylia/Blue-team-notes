@@ -1,4 +1,4 @@
-#03 — Network Subnetting 🌐
+#04 — Network Subnetting 🌐
 **Date:** 2025-11-07
 **Source:** TryHackMe — *A Primer on Subnetting*
 *(Personal learning notes — not containing protected answers)*

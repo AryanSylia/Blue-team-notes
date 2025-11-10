@@ -1,4 +1,4 @@
-# 06 — OSI Model (Open Systems Interconnection) 🧱  
+# 07 — OSI Model (Open Systems Interconnection) 🧱  
 **Date:** 2025-11-10  
 **Source:** TryHackMe — *OSI Model Task*  
 *(Personal learning note — no protected answers included)*  

@@ -1,4 +1,4 @@
-# 04 — ARP (Address Resolution Protocol) 🔁  
+# 05 — ARP (Address Resolution Protocol) 🔁  
 **Date:** 2025-11-07  
 **Source:** TryHackMe — *ARP Task*  
 *(Personal learning note — no protected answers included)*  

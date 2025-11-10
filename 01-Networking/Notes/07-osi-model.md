@@ -94,3 +94,62 @@ This structure makes it possible for any device, regardless of brand or design, 
 
 ---
 
+---
+
+## 🧱 Layer 1 — Physical Layer 
+
+### ⚙️ Overview
+
+The **Physical Layer** is the **lowest layer** in the OSI Model.  
+It deals with the **physical components** of networking — the actual hardware that sends and receives data.  
+This layer is responsible for **transmitting raw bits (1s and 0s)** over a physical medium like cables or wireless signals.
+
+---
+
+### 🔌 Function
+
+At this level, data isn’t “packets” or “frames” yet — it’s just **electrical, optical, or radio signals**.  
+The devices here don’t understand what the data means; they only handle the **transmission** and **reception** of the signal.
+
+- The bit **1** may be represented by an **electrical pulse** (or light in fiber optics).  
+- The bit **0** may be represented by the **absence** of that pulse.
+
+In other words, this layer converts digital data into physical signals that can travel through wires or the air.
+
+---
+
+### 🧩 Examples of Physical Layer Components
+
+| Component | Description |
+|------------|--------------|
+| **Ethernet Cables** | Transfer data through electrical signals between devices. |
+| **Fiber Optic Cables** | Use light pulses to carry information over long distances. |
+| **Connectors** | Physical interfaces that link cables and devices (e.g., RJ45). |
+| **Hubs / Repeaters** | Devices that boost or extend the physical signal. |
+| **Network Interface Cards (NICs)** | Allow computers to send/receive signals. |
+| **Wi-Fi Antennas** | Transmit and receive radio waves wirelessly. |
+
+---
+
+### 💡 Example
+
+When you plug an Ethernet cable between your computer and a router,  
+the **Physical Layer** is the one actually carrying the electrical pulses back and forth —  
+representing binary data (`1`s and `0`s) that higher layers will later interpret as meaningful information.
+
+---
+
+### 🧠 Summary
+
+| Key Aspect | Description |
+|-------------|-------------|
+| **Layer Number** | 1 |
+| **Name** | Physical Layer |
+| **Type of Data** | Bits (`1` and `0`) |
+| **Main Role** | Transmitting data signals physically |
+| **Mediums Used** | Cables, wireless waves, fiber optics |
+| **Real Examples** | Ethernet cable, Wi-Fi antenna, router port |
+
+---
+
+

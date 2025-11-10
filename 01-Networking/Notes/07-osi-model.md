@@ -308,6 +308,99 @@ which examines its routing table and sends the packet through the **best availab
 
 ---
 
+---
+
+## 🚚 Layer 4 — Transport Layer 
+
+### ⚙️ Overview
+
+The **Transport Layer** is the **fourth layer** of the OSI Model and plays a critical role in how data is transmitted between devices.  
+While the **Network Layer** decides *where* data should go, the **Transport Layer** determines *how* the data should be delivered — reliably, efficiently, or quickly.
+
+This layer breaks large amounts of data into smaller units called **segments**, ensuring that information reaches the correct application in the right order.
+
+---
+
+### 📦 Main Protocols
+
+The Transport Layer primarily uses two protocols:
+
+#### 🔹 1. TCP (Transmission Control Protocol)
+
+**TCP** ensures reliability and accuracy when transferring data between devices.  
+It is a **connection-oriented** protocol — meaning it establishes a stable connection between devices before sending data and ensures that every packet arrives safely and in the right order.
+
+##### ✅ Advantages of TCP:
+- Guarantees the **accuracy and integrity** of data.  
+- Performs **error checking and recovery** if data is lost.  
+- Synchronizes devices to ensure correct sequencing.  
+- Ideal for tasks where **all data must arrive complete**.
+
+##### ❌ Disadvantages of TCP:
+- Requires a **constant connection**, which can slow down performance.  
+- **Slower** than UDP due to error-checking overhead.  
+- Can cause **network congestion** if multiple sessions are open.
+
+##### 🧩 Common Uses:
+- File downloads (FTP)  
+- Web browsing (HTTP, HTTPS)  
+- Email (SMTP, POP3, IMAP)
+
+---
+
+#### 🔹 2. UDP (User Datagram Protocol)
+
+**UDP** is a **connectionless** protocol — it sends data directly without establishing a connection or verifying delivery.  
+It sacrifices reliability for **speed and efficiency**, making it ideal for real-time applications.
+
+##### ✅ Advantages of UDP:
+- Much **faster** than TCP.  
+- Doesn’t require a constant connection.  
+- Allows small data packets to be sent quickly and efficiently.
+
+##### ❌ Disadvantages of UDP:
+- Does **not check** if the data arrived.  
+- Packets may be **lost or out of order**.  
+- No re-transmission or confirmation.
+
+##### 🧩 Common Uses:
+- Video and audio streaming (Netflix, YouTube, Spotify)  
+- Online gaming  
+- Device discovery protocols (ARP, DHCP)
+
+---
+
+### 🖥️ Example Visualization
+
+#### 🔸 TCP Example:
+When sending an image from a **webserver** to a **computer**, the image is split into multiple packets:
+
+Packet #1 ➜ Packet #2 ➜ Packet #3 ➜ Final (Full Image)
+
+The receiver reassembles them in the correct order.  
+If one packet is missing, TCP requests it again until the entire image is complete.
+
+#### 🔸 UDP Example:
+The same image sent via UDP might lose some packets:
+
+The receiver shows what it received — even if it’s incomplete — prioritizing **speed over accuracy**.
+
+---
+
+### 🧾 Summary
+
+| Aspect | TCP | UDP |
+|--------|-----|-----|
+| **Connection Type** | Connection-oriented | Connectionless |
+| **Reliability** | High (guaranteed delivery) | Low (no delivery check) |
+| **Speed** | Slower | Faster |
+| **Error Checking** | Yes | No |
+| **Best For** | File transfers, web browsing, emails | Streaming, gaming, voice/video calls |
+| **Data Unit** | Segment | Datagram |
+
+---
+
+
 
 
 

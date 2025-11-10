@@ -1,5 +1,5 @@
 # 05 — DHCP (Dynamic Host Configuration Protocol) 📡  
-**Date:** 2025-11-07  
+**Date:** 2025-11-10  
 **Source:** TryHackMe — *DHCP Task*  
 *(Personal learning note — no protected answers included)*  
 
@@ -106,6 +106,3 @@ You now have a room number (IP) and can stay connected.
 
 ---
 
-## ▶️ Next Topic Preview
-
-**Next:** *The OSI Model — Understanding the 7 Layers of Networking.*

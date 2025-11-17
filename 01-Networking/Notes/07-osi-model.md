@@ -461,7 +461,6 @@ When communication ends, the session is closed properly to free up resources and
 |--------|--------|
 | **Layer Number** | 5 |
 | **Name** | Session Layer |
-| **Arabic Name** | طبقة الجلسة |
 | **Main Function** | Create, maintain, terminate sessions |
 | **Key Feature** | Checkpointing and session control |
 | **Responsible For** | Logical communication between applications |

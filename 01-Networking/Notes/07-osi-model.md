@@ -400,6 +400,73 @@ The receiver shows what it received — even if it’s incomplete — prioritizi
 
 ---
 
+---
+
+## 🟦 Layer 5 — Session Layer (طبقة الجلسة)
+
+**Date:** 2025-11-17  
+
+### 🧭 Overview
+
+The **Session Layer** is the **fifth layer** of the OSI Model.  
+This layer is responsible for **creating, maintaining, and terminating sessions** between two devices communicating over a network.
+
+A *session* represents the logical connection between two systems while they exchange data.
+
+Whenever an application on one device needs to communicate with another device, the Session Layer establishes a session and manages all communication within it.
+
+---
+
+### 🔗 What the Session Layer Does
+
+#### 1️⃣ Session Establishment — إنشاء الجلسة  
+When communication begins, Layer 5 creates a session to allow data exchange.  
+Examples: opening a website, starting a video call, connecting to a remote server (SSH).
+
+#### 2️⃣ Session Maintenance — الحفاظ على الجلسة  
+While the connection is active, the Session Layer:
+- Keeps the session alive  
+- Resets the connection if necessary  
+- Uses **Checkpoints** to resume data transfer without restarting  
+- Ensures only *new* data is resent if something is interrupted
+
+#### 3️⃣ Session Termination — إنهاء الجلسة  
+When communication ends, the session is closed properly to free up resources and prevent errors.
+
+---
+
+### 🧱 Key Features
+
+| Feature | Description |
+|--------|-------------|
+| **Session Creation** | Establishes communication between devices |
+| **Session Maintenance** | Keeps the connection alive and stable |
+| **Checkpoints** | Allows resuming transfers after interruptions |
+| **Session Uniqueness** | Each session is independent and isolated |
+| **Efficient Bandwidth** | Only new/resumed data is transmitted |
+
+---
+
+### 🧪 Examples of Where Session Layer Is Used
+- Video calls (Zoom, WhatsApp, Teams)  
+- Remote access sessions (SSH, RDP)  
+- File transfers that support resume  
+- Website login sessions (Session IDs)  
+
+---
+
+### 📌 Summary
+
+| Element | Value |
+|--------|--------|
+| **Layer Number** | 5 |
+| **Name** | Session Layer |
+| **Arabic Name** | طبقة الجلسة |
+| **Main Function** | Create, maintain, terminate sessions |
+| **Key Feature** | Checkpointing and session control |
+| **Responsible For** | Logical communication between applications |
+
+---
 
 
 

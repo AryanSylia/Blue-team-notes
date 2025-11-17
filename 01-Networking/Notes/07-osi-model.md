@@ -525,5 +525,50 @@ Security-related features such as **data encryption** (e.g., HTTPS) also occur i
 
 ---
 
+---
+
+## 🟣 Layer 7 — Application Layer (طبقة التطبيقات)
+
+### ⚙️ Overview  
+The **Application Layer** is the **seventh and highest layer** of the OSI Model.  
+It is the layer that users interact with directly through applications such as web browsers, email clients, or file transfer tools.  
+
+This layer does **not** refer to the applications themselves, but rather to the **protocols and rules** that those applications use to communicate across the network.
+
+Its main job is to ensure that applications can correctly **send, receive, and interpret** data using standardized protocols.
+
+---
+
+### 🧩 Key Responsibilities  
+- Provides a **user interface** (GUI or CLI) for interacting with network services.  
+- Defines the **protocols** that applications use to communicate.  
+- Manages **application-specific data formats**.  
+- Ensures that data displayed to the user is **understandable and consistent**.  
+- Handles services like emailing, browsing, file transfers, remote access, and more.
+
+---
+
+### 📡 Common Protocols in the Application Layer
+
+| Protocol | Purpose |
+|---------|---------|
+| **HTTP / HTTPS** | Browsing websites |
+| **DNS** | Translating domain names into IP addresses |
+| **FTP / SFTP** | Transferring files between devices |
+| **SMTP** | Sending email |
+| **IMAP / POP3** | Receiving email |
+| **SSH / Telnet** | Remote device access |
+| **LDAP** | Directory services |
+| **SNMP** | Network device monitoring |
+
+---
+
+### 🖥️ User Interaction  
+The Application Layer is the closest to the user:
+
+- **GUI applications**:  
+  Web browsers (Chrome, Firefox), email clients (Outlook, Thunderbird), FTP tools (FileZilla).
+
+- **CLI tools**
 
 

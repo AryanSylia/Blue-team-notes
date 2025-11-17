@@ -402,7 +402,7 @@ The receiver shows what it received — even if it’s incomplete — prioritizi
 
 ---
 
-## 🟦 Layer 5 — Session Layer (طبقة الجلسة)
+## 🟦 Layer 5 — Session Layer 
 
 **Date:** 2025-11-17  
 
@@ -419,18 +419,18 @@ Whenever an application on one device needs to communicate with another device, 
 
 ### 🔗 What the Session Layer Does
 
-#### 1️⃣ Session Establishment — إنشاء الجلسة  
+#### 1️⃣ Session Establishment  
 When communication begins, Layer 5 creates a session to allow data exchange.  
 Examples: opening a website, starting a video call, connecting to a remote server (SSH).
 
-#### 2️⃣ Session Maintenance — الحفاظ على الجلسة  
+#### 2️⃣ Session Maintenance   
 While the connection is active, the Session Layer:
 - Keeps the session alive  
 - Resets the connection if necessary  
 - Uses **Checkpoints** to resume data transfer without restarting  
 - Ensures only *new* data is resent if something is interrupted
 
-#### 3️⃣ Session Termination — إنهاء الجلسة  
+#### 3️⃣ Session Termination 
 When communication ends, the session is closed properly to free up resources and prevent errors.
 
 ---
@@ -467,6 +467,63 @@ When communication ends, the session is closed properly to free up resources and
 
 ---
 
+---
+
+## 🟩 Layer 6 — Presentation Layer 
+
+### 🧭 Overview
+
+The **Presentation Layer** is the **sixth layer** of the OSI Model.  
+Its main purpose is to ensure that data can be **understood**, **formatted**, and **used correctly** by the receiving system — no matter what software or hardware is being used.
+
+This layer acts as a **translator** for data moving between the Application Layer (Layer 7) and the lower layers of the OSI model.  
+It ensures that data sent from one device in a certain format can be received and displayed correctly on another device that may use a different format.
+
+Security-related features such as **data encryption** (e.g., HTTPS) also occur in this layer.
+
+---
+
+### 🔑 Key Responsibilities
+
+#### 1️⃣ Translation
+- Converts data between different formats  
+- Ensures different applications can understand each other  
+- Example: Opening an email in Gmail vs Outlook
+
+#### 2️⃣ Compression 
+- Reduces the size of data to improve speed  
+- Used for images, video streams, and file transfers
+
+#### 3️⃣ Encryption
+- Protects data during transmission  
+- HTTPS encryption is performed here  
+- Ensures confidentiality and integrity
+
+#### 4️⃣ Standardisation 
+- Makes sure all data uses a unified structure  
+- Allows different systems to exchange information without issues
+
+---
+
+### 🧪 Examples of Presentation Layer Functions
+- Encrypting communication on secure websites (HTTPS)  
+- Compressing video/audio for streaming  
+- Converting character sets (ASCII ↔ Unicode)  
+- Ensuring emails display correctly on any client  
+
+---
+
+### 📌 Summary
+
+| Element | Value |
+|--------|--------|
+| **Layer Number** | 6 |
+| **Name** | Presentation Layer |
+| **Main Functions** | Translation, Encryption, Compression |
+| **Purpose** | Ensuring data is readable and secure |
+| **Related to** | HTTPS, encoding, file formats |
+
+---
 
 
 

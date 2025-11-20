@@ -44,7 +44,7 @@ https://www.youtube.com/watch?v=xTqtm7-k25o
 
 These video references are used to support the written lessons inside the `Notes` directory, especially:
 
-- `01-identifying-devices.md 
+- `02-icmp-and-ping.md 
 
 ---
 

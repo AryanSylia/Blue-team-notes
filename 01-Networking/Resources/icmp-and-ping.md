@@ -19,8 +19,8 @@ https://www.youtube.com/watch?v=xTqtm7-k25o
 
 ### ▶️ **2.  Ping Basics**  
 
-**Video Title:** ""  
-**YouTube Link:**  
+**Video Title:** "PING Command - Troubleshooting Networks"  
+**YouTube Link:**  https://www.youtube.com/watch?v=IIicPE38O-s
 
 
 **Topics Covered:**

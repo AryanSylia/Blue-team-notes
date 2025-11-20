@@ -46,10 +46,7 @@ Below is a list of high-quality YouTube videos used to reinforce networking conc
 
 These video references are used to support the written lessons inside the `Notes` directory, especially:
 
-- `03-network-fundamentals.md`  
-- `04-network-subnetting.md`  
-- `05-arp-basics.md`  
-- `09-ports-basics.md`  
+- `01-identifying-devices.md 
 
 ---
 

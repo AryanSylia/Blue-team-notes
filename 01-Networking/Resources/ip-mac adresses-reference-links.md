@@ -1,6 +1,6 @@
 
 # 🎥 Networking – YouTube Learning Resources
-### 📅 Updated: 2025-11-19
+### 📅 Updated: 2025-11-20
 
 This page contains curated YouTube videos that were used as learning references for networking fundamentals, such as IP addressing, MAC addresses, 
 

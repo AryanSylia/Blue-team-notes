@@ -1,0 +1,117 @@
+
+# 🌐 Domain Hierarchy – Understanding DNS Structure  
+**Updated:** 2025-12-08  
+
+This note explains how domain names are structured on the Internet using a hierarchical system. Understanding this hierarchy is essential for networking, cybersecurity, and DNS management.
+
+---
+
+## 🔺 1. Root Domain (“.”)
+
+The **Root Domain** is the highest level in the DNS hierarchy.  
+It is represented by a single period `.` — although it is usually hidden in everyday usage.
+
+Example:  
+google.com.
+
+The trailing dot represents the root but is generally omitted.
+
+The root level is maintained by global organizations such as **ICANN** and serves as the starting point for all DNS queries.
+
+---
+
+## 🔵 2. Top-Level Domain (TLD)
+
+A **Top-Level Domain (TLD)** is the rightmost portion of a domain name.
+
+Examples:
+- `.com`
+- `.edu`
+- `.gov`
+- `.mil`
+- `.org`
+- `.net`
+
+### Types of TLDs
+
+#### **1. gTLD – Generic Top-Level Domain**
+Historically associated with types of organizations:
+- `.com` → commercial  
+- `.org` → organization  
+- `.edu` → education  
+- `.gov` → government  
+
+#### **2. ccTLD – Country Code Top-Level Domain**
+Used to represent countries:
+- `.uk` → United Kingdom  
+- `.ca` → Canada  
+- `.fr` → France  
+- `.ma` → Morocco  
+
+There are now **over 2000 TLDs** in use globally.
+
+---
+
+## 🟢 3. Second-Level Domain (SLD)
+
+The **Second-Level Domain** is the main name chosen when registering a domain.
+
+Example:  
+- In `tryhackme.com`  
+  - `.com` = TLD  
+  - `tryhackme` = SLD  
+
+### SLD Rules:
+- Maximum length: **63 characters**, excluding the TLD  
+- Allowed characters:
+  - `a–z`
+  - `0–9`
+  - hyphens `-`  
+- Cannot start or end with hyphens  
+- Cannot contain consecutive hyphens  
+
+---
+
+## 🟣 4. Subdomains
+
+A **Subdomain** appears to the left of the Second-Level Domain, separated by a period.
+
+Example:  
+admin.tryhackme.com
+
+Here, `admin` is the **subdomain**.
+
+### Subdomain Characteristics:
+- Follows the same character rules as SLD  
+- You can create **unlimited** subdomains  
+- Combined domain length must not exceed **253 characters**  
+- Subdomains allow services to be organized:
+
+Examples:
+- `support.google.com`
+- `maps.google.com`
+- `drive.google.com`
+
+More complex subdomain structures are also allowed:
+jupiter.servers.tryhackme.com
+
+
+---
+
+## 📌 Summary Table
+
+| Level | Example | Purpose |
+|-------|---------|---------|
+| **Root Domain** | `.` | The starting point of the DNS system |
+| **TLD** | `.com` | Defines domain category or country |
+| **Second-Level Domain** | `tryhackme` | Main domain registered |
+| **Subdomain** | `admin.tryhackme.com` | Service or section under the main domain |
+
+---
+
+## 📁 File Information  
+**Suggested filename:** `11-domain-hierarchy.md`  
+**Category:** `01-Networking / Notes`
+
+---
+

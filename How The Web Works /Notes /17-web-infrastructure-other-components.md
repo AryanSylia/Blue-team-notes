@@ -48,6 +48,8 @@ WAFs also implement rate limiting, which restricts the number of requests an IP 
 
 While a WAF does not replace secure coding practices, it provides an important additional layer of defense.
 
+https://www.youtube.com/watch?v=kDEX1HXybrU&t=4s
+
 ## Putting It All Together
 
 In a modern web architecture, a user’s request may pass through multiple layers: a CDN, a WAF, a load balancer, one of several web servers, and finally a database. Each component plays a specific role in ensuring performance, reliability, and security.

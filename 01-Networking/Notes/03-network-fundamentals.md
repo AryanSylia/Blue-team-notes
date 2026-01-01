@@ -75,6 +75,9 @@ Provides balance between scalability, performance, and redundancy.
 **Common Use:**  
 Enterprise environments (core–distribution–access network design).
 
+
+https://youtu.be/zbqrNg4C98U?list=PLJ7Xch9LHhFtNQ6HegZUkVc8qurD6stYX
+
 ---
 
 ## ⚙️ Switch — What It Does
@@ -95,6 +98,8 @@ Enterprise environments (core–distribution–access network design).
 - Can perform NAT, firewalling, or VLAN inter-routing.  
 
 **Key Point:** Connects different networks together (e.g., local network to the Internet).
+
+https://youtu.be/1z0ULvg_pW8
 
 ---
 

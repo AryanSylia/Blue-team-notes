@@ -571,4 +571,4 @@ The Application Layer is the closest to the user:
 
 - **CLI tools**
 
-
+https://www.youtube.com/watch?v=Ilk7UXzV_Qc

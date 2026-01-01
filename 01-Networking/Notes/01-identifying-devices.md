@@ -24,6 +24,8 @@ Objective: To understand how devices are identified within a network — what id
 
 - **Public IP**: The address the internet sees (assigned by your ISP).
 
+- https://youtu.be/5WfiTHiU4x8?list=PLJ7Xch9LHhFtNQ6HegZUkVc8qurD6stYX
+
 ### MAC (Media Access Control) Address
 - A unique address for a network interface (such as a Wi-Fi or Ethernet card) at the link level (Layer 2).
 
@@ -32,6 +34,8 @@ Objective: To understand how devices are identified within a network — what id
 - Usually stored on the device itself (from the factory) — sometimes found on the device label, sometimes not.
 
 - Each interface has a separate MAC: One device may have a MAC for Wi-Fi and another for Ethernet.
+
+- https://youtu.be/TIiQiw7fpsU?list=PLJ7Xch9LHhFtNQ6HegZUkVc8qurD6stYX
 
 ### Practical Difference
 - **ARP**: When a device wants to send a packet within a local network to a specific IP address, the device translates the IP address to the MAC address using ARP and then sends the packet to that MAC address.

@@ -16,6 +16,8 @@ ICMP operates at the **Network Layer (Layer 3)** of the OSI model and helps dete
 
 In short:  
 > ICMP does not transfer user data — it manages and monitors the health of network communication.
+>
+> https://youtu.be/xTqtm7-k25o?list=PLJ7Xch9LHhFtNQ6HegZUkVc8qurD6stYX
 
 ---
 
@@ -29,6 +31,7 @@ This process measures how long it takes for data to travel to the target and bac
 - Measures network latency (response time).  
 - Detects packet loss or instability in the connection.
 
+https://youtu.be/IIicPE38O-s?list=PLJ7Xch9LHhFtNQ6HegZUkVc8qurD6stYX
 ---
 
 ### 📡 **Relationship Between Ping and ICMP**  

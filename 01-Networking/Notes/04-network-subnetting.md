@@ -43,6 +43,8 @@ Subnet Mask → `255.255.255.0`
 
 The mask tells the system where the network begins and ends, and therefore how many devices can be connected to it.
 
+https://youtu.be/s_Ntt6eTn94
+
 ---
 
 ## 🚦 Default Gateway
@@ -63,6 +65,8 @@ Example:
 2. The Router (Gateway) forwards it to the internet.
 
 3. When a response arrives, it returns it to your device.
+
+4. https://youtu.be/pCcJFdYNamc
 
 ---
 

@@ -14,6 +14,8 @@ A web server is not necessarily a physical machine, but rather a software applic
 
 Common web server software includes Apache, Nginx, IIS (used on Windows systems), and Node.js when used as a server-side runtime. These programs are responsible for deciding how requests are handled and what data is returned to the client.
 
+https://www.youtube.com/watch?v=xRxUyQUkOnE
+
 ## Root Directory
 
 Every web server is configured with a root directory. This directory is the location on the server’s hard drive where website files are stored. When a client requests a resource, the web server looks for it inside this directory.

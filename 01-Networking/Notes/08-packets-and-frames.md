@@ -178,4 +178,6 @@ If packet #2 is missing → part of the image will be missing.
 
 ---
 
+https://youtu.be/tT0WYzOR6Ks
+
 

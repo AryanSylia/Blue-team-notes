@@ -30,6 +30,8 @@ By offloading static content to a CDN, the main web server can focus on dynamic 
 
 https://youtu.be/chyZRNT7eEo?list=PLJ7Xch9LHhFv6qBHlKEzdwuQo417SYQVO
 
+https://youtu.be/LQuuoHTyYz8?list=PLJ7Xch9LHhFv6qBHlKEzdwuQo417SYQVO
+
 ## Databases
 
 Most websites need a way to store and retrieve user data. Web servers communicate with databases to save and access information such as user accounts, messages, settings, and application data.

@@ -141,3 +141,5 @@ Understanding these codes is essential for both defensive and offensive security
 
 HTTP Status Codes are the **language of communication** between clients and servers.  
 Mastering them is a critical step toward understanding web applications, debugging issues, and performing effective security assessments.
+
+https://www.youtube.com/watch?v=qmpUfWN7hh4

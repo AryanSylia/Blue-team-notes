@@ -56,4 +56,6 @@ DNS allows the internet to grow to billions of domains and devices.
 
 ---
 
+https://youtu.be/mpQZVYPuDGU?list=PLJ7Xch9LHhFv6qBHlKEzdwuQo417SYQVO
+
 ### ✨ End of File  

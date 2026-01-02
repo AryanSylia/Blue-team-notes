@@ -159,5 +159,10 @@ It ensures:
 - data arrives in order and without corruption,  
 - connections are closed cleanly.
 
+- https://youtu.be/PpsEaqJV_A0
+
+- 
+  https://www.youtube.com/watch?v=vKFLgmSC6do
+
 ---
  

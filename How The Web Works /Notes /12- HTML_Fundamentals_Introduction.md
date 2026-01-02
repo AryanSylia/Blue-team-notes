@@ -117,3 +117,5 @@ This allows you to inspect the actual HTML code sent by the server and rendered 
 ## Key Summary
 
 HTML is the foundational language of the web. It defines the structure and content of web pages and works alongside CSS and JavaScript to create complete, functional websites. Browsers read HTML documents and render them into the visual pages users interact with every day.
+
+https://youtu.be/W-6OY9eI3hk?list=PLJ7Xch9LHhFv6qBHlKEzdwuQo417SYQVO

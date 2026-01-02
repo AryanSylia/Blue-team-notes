@@ -90,3 +90,5 @@ Each port is like an apartment inside one building — the IP is the building ad
 - Different protocols follow standard port rules.
 
 ---
+
+https://youtu.be/g2fT-g9PX9o

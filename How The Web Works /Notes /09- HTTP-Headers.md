@@ -186,3 +186,5 @@ Understanding headers is essential for:
 
 HTTP Headers are not optional details —  
 they are **core components of how the web works** and a **major attack surface** in web security.
+
+https://www.youtube.com/watch?v=4bQeGUzHpOE

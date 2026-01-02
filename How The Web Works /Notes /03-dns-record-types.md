@@ -95,3 +95,5 @@ Related files:
 - `dns-record-types.md` *(this file)*
 
 ---
+
+https://youtu.be/HnUDtycXSNE

@@ -124,3 +124,5 @@ A VPN:
 VPNs are essential for both cybersecurity training and real-world enterprise networks.
 
 ---
+
+https://youtu.be/R-JUOpCgTZc

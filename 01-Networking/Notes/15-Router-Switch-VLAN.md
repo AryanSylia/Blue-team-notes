@@ -18,7 +18,9 @@ Routers operate at **Layer 3** of the OSI model and make decisions using **IP ad
   - Most reliable route  
   - Fastest medium (copper vs. fiber)  
   - Network congestion  
-- Handle routing features such as port forwarding and firewalling  
+- Handle routing features such as port forwarding and firewalling
+
+- https://youtu.be/ELCPzcOTkYg
 
 ---
 
@@ -29,6 +31,8 @@ A **switch** is a dedicated networking device used to connect multiple devices i
 Switches can operate at:
 - **Layer 2** (standard switch using MAC addresses)  
 - **Layer 3** (advanced switch capable of routing using IP)
+- 
+- https://youtu.be/WJ_UD3R7s2I
 
 ---
 
@@ -74,6 +78,9 @@ Even though devices are connected to the same switch, VLANs separate them logica
 - **VLAN 2:** Accounting Department  
 
 These departments **cannot communicate** with each other unless routing rules allow it.
+
+
+https://youtu.be/jC6MJTh9fRE
 
 ---
 

@@ -149,5 +149,7 @@ HTTPS helps reduce these risks, and today it is the standard for modern websites
 - https://youtu.be/wW2A5SZ3GkI?list=PLJ7Xch9LHhFv6qBHlKEzdwuQo417SYQVO
 
 - https://youtu.be/hExRDVZHhig?list=PLJ7Xch9LHhFv6qBHlKEzdwuQo417SYQVO
+- 
+https://youtu.be/ok-plXXHlWw?list=PLJ7Xch9LHhFv6qBHlKEzdwuQo417SYQVO
 
 ---

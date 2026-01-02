@@ -37,3 +37,5 @@ When an event occurs, JavaScript code is executed. For instance, clicking a butt
 JavaScript is what transforms a simple web page into an interactive application. HTML builds the structure, but JavaScript brings the page to life. It allows pages to react to users, update content dynamically, and create engaging experiences.
 
 Understanding this relationship between HTML and JavaScript is a fundamental step toward mastering web development and building modern, interactive websites.
+
+https://youtu.be/DHjqpvDnNGE?list=PLJ7Xch9LHhFv6qBHlKEzdwuQo417SYQVO

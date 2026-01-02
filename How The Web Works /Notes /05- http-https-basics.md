@@ -146,4 +146,8 @@ HTTPS helps reduce these risks, and today it is the standard for modern websites
 - The **S** in HTTPS means **Secure**.
 - In cybersecurity, HTTPS is essential to protect users from interception, impersonation, and data manipulation.
 
+- https://youtu.be/wW2A5SZ3GkI?list=PLJ7Xch9LHhFv6qBHlKEzdwuQo417SYQVO
+
+- https://youtu.be/hExRDVZHhig?list=PLJ7Xch9LHhFv6qBHlKEzdwuQo417SYQVO
+
 ---

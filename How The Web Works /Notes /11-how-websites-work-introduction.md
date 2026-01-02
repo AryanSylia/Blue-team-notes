@@ -102,3 +102,6 @@ Websites work by allowing browsers to communicate with servers over the Internet
 The browser requests data, the server responds with data, and the browser renders that data into a webpage visible to the user.
 
 This fundamental concept is the foundation for everything else in web development and web security.
+
+
+https://youtu.be/-Hh9DpgULHU

@@ -41,3 +41,6 @@ This basic technique is a fundamental part of web security testing and is often 
 Sensitive Data Exposure highlights the importance of treating frontend code as public information. Any sensitive data stored in HTML or JavaScript is at risk of being discovered and abused.
 
 Proper security practices require that sensitive information be handled securely on the backend and never exposed in the frontend source code. Regular reviews of page source code are essential for preventing simple but dangerous security vulnerabilities.
+
+
+https://youtu.be/NvCXQc8Oz_Q?list=PLJ7Xch9LHhFv6qBHlKEzdwuQo417SYQVO

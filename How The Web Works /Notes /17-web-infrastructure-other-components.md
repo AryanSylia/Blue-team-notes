@@ -28,6 +28,8 @@ When a user requests one of these resources, the CDN determines the user’s geo
 
 By offloading static content to a CDN, the main web server can focus on dynamic content and application logic, resulting in better overall performance and scalability.
 
+https://youtu.be/chyZRNT7eEo?list=PLJ7Xch9LHhFv6qBHlKEzdwuQo417SYQVO
+
 ## Databases
 
 Most websites need a way to store and retrieve user data. Web servers communicate with databases to save and access information such as user accounts, messages, settings, and application data.

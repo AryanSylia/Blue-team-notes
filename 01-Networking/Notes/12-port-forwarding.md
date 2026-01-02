@@ -180,5 +180,6 @@ It is a foundational networking skill and widely used in:
 
 ---
 
+https://www.youtube.com/watch?v=2G1ueMDgwxw&t=512s
 
 

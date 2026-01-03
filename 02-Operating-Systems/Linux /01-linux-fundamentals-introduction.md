@@ -29,3 +29,6 @@ The focus is practical and hands-on, ensuring that each concept is reinforced th
 The goal of this introduction is to remove the initial fear or uncertainty around Linux and provide a clear roadmap for what lies ahead. By the end of this series, learners will have a solid foundation that prepares them for further studies in system administration, security operations, and blue team defensive practices.
 
 Linux is not optional in cybersecurity—it is a core skill. This course represents the first step toward mastering it.
+
+
+https://youtu.be/rrB13utjYV4
